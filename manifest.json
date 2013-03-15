@@ -1,0 +1,16 @@
+{
+   "manifest_version": 2,
+   "name": "下电影",
+   "version": "1.0",
+   "description": "在豆瓣上提供电影和字幕的下载连接",
+   
+   "content_scripts": [ {
+      "js": [ "js.js" ],
+      "matches": [ "http://movie.douban.com/subject/*"]
+   } ],
+   "converted_from_user_script": true,
+   
+   "icons": {
+      "128": "128.png"
+   }
+}
