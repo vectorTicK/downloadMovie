@@ -1,4 +1,5 @@
-﻿function addJQuery(callback) {
+﻿/*githup*/
+function addJQuery(callback) {
     var script = document.createElement("script");
     script.setAttribute("src", "about:blank");
     script.addEventListener('load', function () {
